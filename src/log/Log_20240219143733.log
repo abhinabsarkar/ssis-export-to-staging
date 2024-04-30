@@ -1,9 +1,0 @@
-Reading file names one by one
-Reading file name: C:\abhinab\ssis\source\GFTAzureCostCenterJan2024.csv
-Building SQL statement to create table
-SQL statement: IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[staging].[GFTAzureCostCenterJan2024]') AND type in (N'U'))DROP TABLE [staging].[GFTAzureCostCenterJan2024] Create Table staging.[GFTAzureCostCenterJan2024]([Cost Center] NVARCHAR(400),[Sub-Segment] NVARCHAR(400),[Owner] NVARCHAR(400),[MOM Change] NVARCHAR(400),[Net YTD Changes] NVARCHAR(400),[Jan 2024] NVARCHAR(400),[Dec 2023] NVARCHAR(400),[Nov 2023] NVARCHAR(400),[Oct 2023] NVARCHAR(400),[Sep 2023] NVARCHAR(400),[Aug 2023] NVARCHAR(400),[Jul 2023] NVARCHAR(400),[Jun 2023] NVARCHAR(400),[May 2023] NVARCHAR(400),[Apr 2023] NVARCHAR(400),[Mar 2023] NVARCHAR(400),[Feb 2023] NVARCHAR(400),[Normalized Avg of L3M MoM % Change] NVARCHAR(400),[Normalised MOM %Change] NVARCHAR(400),[Cost Center Number] NVARCHAR(400))
-SQL Table created
-Beginning data insertion into table
-Data insertion into table completed. Rows inserted: 35
-Moved the file to archive folder after adding datetime to it
-SSIS Script task completed
