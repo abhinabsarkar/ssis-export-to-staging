@@ -1,0 +1,14 @@
+{
+    "month": "03",
+    "year": "2024",
+    "segment": "",
+    "sub_segment": "",
+    "format": "csv",
+    "filenamepart": "Az_Billed_Resources_",
+    "api_endpoint": "",
+    "ssis_package": "ExportGrafanaToStaging.dtsx",
+    "destinationPath": "C:\\abhinab\\ssis\\source\\",
+    "sql_server": "",
+    "database": "",
+    "stored_procedure": ""
+  }
